@@ -2,10 +2,6 @@
     border: 1px black solid;
 }
 
-.profilepic {
-    float: left;
-}
-
 html {
     position: relative;
     min-height: 100%;
@@ -36,7 +32,7 @@ footer {
 
     .navbar-text {
         
-        padding: 20px 0 0 0;
+        padding-top: 20px;
         height: 100px;
     }
 
@@ -59,12 +55,15 @@ footer {
         padding-right: 10px;
         position: relative;
         left: -15px;
+        
     
     }
            
     /* Contact link deocrations */
-    .contactlinks {
+    .links {
         font-size: 20px;
+        padding: 0;
+        border-right: 1px #dddddd solid;
     }
 
         element.style {
@@ -80,35 +79,114 @@ footer {
             color: #777777;
             text-decoration: none;
         }
+        
+    .linkright {
+        border-right: none;
+    }
 
-.container1 {
+.indexcontainer1 {
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-
+h1 {
+    font-weight: bold;
+    
+}
 .aboutme {
     background: #ffffff;
     border-top: #dddddd solid 1px;
     border-right: #dddddd solid 1px;
     border-left: #dddddd solid 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
     color: #4aaaa5;
-    font-weight: bold;
     padding: 15px 15px;
 }
 
 .profilepic {
+    float: left;
     margin-right: 20px;
 
 }
 
-.row2 {
+.indexrow2 {
     background: #ffffff;
     border-bottom: #dddddd solid 1px;
     border-right: #dddddd solid 1px;
     border-left: #dddddd solid 1px;
     line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
     
 }
+
+/* CONTACT PAGE CSS */
+
+.contactforms {
+    margin: 25px 25px 10px 25px;
+}
+    .contactforms2 {
+        margin: 20px 25px 10px 25px;
+    }
+    .contactforms3 {
+            width: 93%;
+            padding: 12px 20px;
+            margin: 0 25px;
+            height: 200px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #777777;
+            line-height: 25px;
+    }
+
+    /* Forms here */
+    input[type=text], select {
+        width: 93%;
+        padding: 12px 20px;
+        margin: 0 25px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+    }
+
+    input[type=submit] {
+        width: 30%;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 20px;
+        padding: 14px 20px;
+        margin: 10px 25px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: lightgrey;
+
+    }
+
+.card-body {
+    padding: 0 0 30px 0;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin: 15px 0;
+    
+}
+
+.contactcontainer1 {
+    border-bottom: #dddddd solid 1px;
+}
+
+/* PORTFOLIO PAGE CSS */
+
+
