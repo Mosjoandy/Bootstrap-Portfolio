@@ -174,19 +174,43 @@ h1 {
 .card-body {
     padding: 0 0 30px 0;
 }
+
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color: #4aaaa5;
     font-weight: bold;
     margin: 15px 0;
-    
 }
 
 .contactcontainer1 {
     border-bottom: #dddddd solid 1px;
 }
 
+#hr2 {
+    width: 90%;
+}
+
 /* PORTFOLIO PAGE CSS */
+
+.projecttitles {
+
+    width: 100%;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+
+}
+
+.card-img-overlay {
+    padding: 0 0;
+}
+
+.portfoliocards {
+    margin-top: 12rem;
+}
 
 
